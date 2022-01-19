@@ -41,4 +41,4 @@ Console.Write("Enter month and year to calculate income (MM/YYYY): ");
 DateTime date = DateTime.Parse(Console.ReadLine());
 Console.WriteLine("Name: " + worker.Name);
 Console.WriteLine("Department: " + worker.Department.Name);
-Console.WriteLine("Income for " + date.Month + "/" + date.Year + ":" + worker.Income(date.Year, date.Month).ToString("F2", CultureInfo.InvariantCulture));
+Console.WriteLine("Income for " + date.Month + "/" + date.Year + ": " + worker.Income(date.Year, date.Month).ToString("F2", CultureInfo.InvariantCulture));
